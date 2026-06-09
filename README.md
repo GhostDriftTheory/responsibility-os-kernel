@@ -16,7 +16,7 @@ ADIC assurance core -> responsibility-preserving kernel -> policy-relevant inspe
 
 ## Core claim
 
-If inspectable governance is formalized as preservation of policy-relevant responsibility distinctions, then a faithful responsibility layer is a necessary condition. This kernel-level claim is machine-verified in Lean 4.
+If inspectable governance is formalized as preservation of all responsibility/evidence distinctions, then faithfulness is necessary; for a specified observation policy, the required condition is preservation of the policy-relevant distinctions.
 
 The connection to any concrete governance deployment requires additional interpretation beyond this formalization.
 
@@ -81,7 +81,7 @@ In this sense:
 * This does not derive Beck-Chevalley; it remains an external structural assumption.
 * This does not prove that real-world AI governance in general must adopt the policies formalized here.
 * This does not replace operational governance, audits, or organizational controls.
-* For the definitions in this file, this is a necessary-and-sufficient kernel-level formalization, not a complete Responsibility OS implementation.
+* For the definitions in this file, this is a kernel-level formalization of policy preservation and faithfulness, not a complete Responsibility OS implementation.
 
 ## Key Lean names
 
